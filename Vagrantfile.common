@@ -3,7 +3,7 @@
 
 # Define
 VAGRANTFILE_API_VERSION = "2"
-VM_BOX = "bento/centos-7.4"
+VM_BOX = "../base-centos7.box"
 VM_PARAMS = [
   { :hostname => "tmp01",:private_ip => "192.168.33.201",:shared_source => "../../",:shared_target => "/share"},
   { :hostname => "tmp02",:private_ip => "192.168.33.202",:shared_source => "../../",:shared_target => "/share"},
